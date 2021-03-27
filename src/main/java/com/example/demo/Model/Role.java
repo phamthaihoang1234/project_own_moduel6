@@ -1,4 +1,4 @@
-package com.example.demo.Model;
+package com.example.demo.model;
 
 import lombok.Data;
 
@@ -15,5 +15,11 @@ public class Role {
     private Long id;
     private String role;
 
+    public Role() {
+    }
 
+    public Role(Long id, String role) {
+        this.id = id;
+        this.role = role;
+    }
 }

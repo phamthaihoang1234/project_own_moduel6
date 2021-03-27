@@ -1,6 +1,6 @@
 package com.example.demo.repository;
 
-import com.example.demo.Model.Singer;
+import com.example.demo.model.Singer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

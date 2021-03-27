@@ -1,8 +1,6 @@
-package com.example.demo.Model;
+package com.example.demo.model;
 
-import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader;
 import lombok.Data;
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 
 import javax.persistence.*;
 import java.util.List;

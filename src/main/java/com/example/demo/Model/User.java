@@ -1,8 +1,7 @@
-package com.example.demo.Model;
+package com.example.demo.model;
 
 import lombok.Data;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 import java.util.Set;
 
@@ -16,10 +15,9 @@ public class User {
     private String username;
     @Column(nullable = false)
     private String password;
-
     @ManyToMany(fetch = FetchType.LAZY)
     private Set<Role> roles;
-    @OneToOne
+    @OneToOne()
     private UserDetail userDetail;
 
 }
